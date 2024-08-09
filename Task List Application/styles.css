@@ -1,0 +1,128 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+/* Task list container */
+.task-list-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    max-width: 100%;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Input field styles */
+#taskInput {
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Hover effect on input field */
+#taskInput:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Add Task button styles */
+#addTaskButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect on Add Task button */
+#addTaskButton:hover {
+    background-color: #218838;
+}
+
+/* Task list styles */
+#taskList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Task list item styles */
+#taskList li {
+    padding: 12px 10px;
+    margin-bottom: 8px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect on task list items */
+#taskList li:hover {
+    background-color: #e9ecef;
+}
+
+/* Completed task style */
+#taskList li.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+/* Delete button styles */
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect on delete button */
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+/* Add an edit button (Optional) */
+.edit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect on edit button (Optional) */
+.edit-button:hover {
+    background-color: #0069d9;
+}
